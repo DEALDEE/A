@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="-LkgtHlPhP3dcs_a59xVUtoiAAmulU3h-9a_ADQ60QE" />
+  <meta charset="UTF-8">
+  <title>MG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" 350,000 /#MG ZS 1.5 X+ SUV ตัวท็อปสุด ปี 2023 หลังคา Sunroof เครื่อง เบนซิน เกียร์ Auto สีดำ
+
+รถสวยบางเดิมทั้งคัน เลขไมล์ 72,000 KM รถบ้าน มือเดียว สภาพดีมาก ไม่เคยชน ไม่เคยแก๊ส ไม่เคยจมน้ำ 100%
+
+-ระบบสั่งการอัจฉริยะ i-SMART
+-เบาะหนังแท้ปรับไฟฟ้า
+-แอร์ดิจิตอล
+-กล้องถอยหลังรอบคัน 360 องศา
+-Cruise Control
+-ระบบตรวจสอบแรงดันลมยาง
+-ระบบKEYLESS
+-ปุ่มสตาร์ท ">
+  <link rel="icon" style="width: 100%" href="https://lh5.googleusercontent.com/d/1yRi_GNMcuYWbtRqeoE-9yuveKEg-lrv_" data-rh="true">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/d/1XqmHe8K9yTJfWZzywO9KVRr9NoIw6Qho">
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+ <!-- เร่งการเชื่อมต่อกับ Apps Script -->
+    <link rel="preconnect" href="https://script.google.com">
+    <link rel="dns-prefetch" href="https://script.google.com">
+ 
+</head>
+
+    <!-- ปรับให้ iframe โหลดเร็วขึ้น -->
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* ปิดการเลื่อนของเบราว์เซอร์ */
+        }
+
+         iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+            loading: lazy; /* โหลด iframe แบบ Lazy Load */
+        }
+        
+        #loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #2d7cff;
+            z-index: 999; /* ทำให้ข้อความโหลดอยู่ด้านบนสุด */
+        }
+        
+        #myFrame {
+            position: fixed; /* เปลี่ยนเป็น fixed เพื่อให้ยึดติด */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            display: none;
+            z-index: 1000; /* ทำให้ iframe อยู่เหนือข้อความโหลด */
+        }
+    </style>
+ 
+<body>
+ <div id="loading">Loading platform...</div>
+ <iframe id="myFrame" src=""></iframe>
+ 
+<script>
+  (function() {
+    let combinedId = "";
+    
+    // ดึง path ทั้งหมดหลังจากโดเมน (เช่น /path/to/page?query=123)
+    let fullPath = window.location.pathname + window.location.search;
+    
+    // ตัดเครื่องหมาย / ตัวแรกออก (ถ้ามี) เพื่อให้ได้ค่าที่ต่อกันสวยงาม
+    if (fullPath.startsWith("/")) {
+        fullPath = fullPath.substring(1);
+    }
+    
+    combinedId = fullPath;
+
+    let cacheBust = new Date().getTime();
+    
+    // ส่งค่ารวมไปที่ ?seree=
+    let link3 = "https://script.google.com/macros/s/AKfycbybhu0pQ1H5eHhxl9yj08V0WMn4XeeAXfiMqMdIIViSMmNRmKpxZ2jA7nEhB2bLdxvT/exec?seree=" + combinedId + "&cb=" + cacheBust;
+
+    let iframe = document.querySelector("#myFrame");
+    let loadingDiv = document.querySelector("#loading");
+
+    iframe.onload = function() {
+        loadingDiv.style.display = "none";
+        iframe.style.display = "block";
+    };
+
+    let link = window.location.href;
+    if (!link.includes("dealdee.github.io/index.html")) {
+        iframe.setAttribute("src", link3);
+    }
+  })();
+</script>
+
+</body>
+</html>
