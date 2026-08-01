@@ -3,11 +3,11 @@
 <head>
   <meta name="google-site-verification" content="-LkgtHlPhP3dcs_a59xVUtoiAAmulU3h-9a_ADQ60QE" />
   <meta charset="UTF-8">
-  <title>${banewetryunk1}</title>
+  <title>ดีลดีคาร์</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content=" ${banewetryunk2} /${banewetryunk3} ">
-  <link rel="icon" style="width: 100%" href="https://lh5.googleusercontent.com/d/1yRi_GNMcuYWbtRqeoE-9yuveKEg-lrv_" data-rh="true">
-  <meta property="og:image" content="${imageLink}">
+  <meta name="description" content="ดีลดีคาร์">
+  <link rel="icon" style="width: 100%" href="https://lh3.googleusercontent.com/d/1f14wHxZ-QYGyOo3z3T5g6mtbclQDo7PK" data-rh="true">
+  <meta property="og:image" content="เว็บไซต์ซื้อขายรถยนต์ที่ดีที่สุด">
 
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
@@ -146,7 +146,7 @@
     let cacheBust = new Date().getTime();
     
     // ส่งค่ารวมไปที่ ?seree=
-    let link3 = "https://script.google.com/macros/s/AKfycbybhu0pQ1H5eHhxl9yj08V0WMn4XeeAXfiMqMdIIViSMmNRmKpxZ2jA7nEhB2bLdxvT/exec?seree=" + combinedId + "&cb=" + cacheBust;
+    let link3 = "https://script.google.com/macros/s/AKfycbzBpW00CY0Y3X9ZkwtFXGi_Nyv5aOes1KmQkToF-GmPmAwAUb9PYpgnDlMl9h8nbZde/exec?seree=" + combinedId + "&cb=" + cacheBust;
 
     let iframe = document.querySelector("#myFrame");
     let loadingDiv = document.querySelector("#loading");
