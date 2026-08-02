@@ -1,17 +1,7 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="-LkgtHlPhP3dcs_a59xVUtoiAAmulU3h-9a_ADQ60QE" />
-  <meta charset="UTF-8">
-  <title>${banewetryunk1}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content=" ${banewetryunk2} /${banewetryunk3} ">
-  <link rel="icon" style="width: 100%" href="https://lh3.googleusercontent.com/d/1f14wHxZ-QYGyOo3z3T5g6mtbclQDo7PK" data-rh="true">
-  <meta property="og:image" content="${imageLink}">
 
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
 
  <!-- เร่งการเชื่อมต่อกับ Apps Script -->
     <link rel="preconnect" href="https://script.google.com">
